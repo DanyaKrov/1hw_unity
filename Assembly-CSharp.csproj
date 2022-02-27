@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{465D5B72-2A66-B3A1-DACC-5DD21BAC888C}</ProjectGuid>
+    <ProjectGuid>{1C5996ED-FCE0-FFB7-A33C-D16D12F28506}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,9 +53,14 @@
     <UnityVersion>2020.3.26f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Cube.cs" />
-    <Compile Include="Assets\Apple.cs" />
-    <Compile Include="Assets\Basket.cs" />
+    <Compile Include="Assets\AurynSky\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
+    <Compile Include="Assets\Scripts\Tree.cs" />
+    <Compile Include="Assets\Scripts\Basket.cs" />
+    <Compile Include="Assets\Scripts\Apple.cs" />
+    <Compile Include="Assets\Scripts\game.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\AurynSky\Gems Ultimate Pack\READ ME.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
